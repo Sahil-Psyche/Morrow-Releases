@@ -65,7 +65,7 @@ adb install -r morrow-0.2.0.apk
 
 ## Known limitations
 
-- **Sideload only.** This is not a Play Store build; there is no iOS build.
+- **Sideload only.** This is not a Play Store build. There is no iOS build or hosted PWA download; the Android APK is the supported build.
 - **Metadata is plaintext at rest.** Record kind, timestamps, tags, project association, pinned/archived state, due dates, project names/summaries and reminder times remain readable in local storage for indexing. When the lock is enabled, record titles, bodies, URLs, checklist text and attachment contents are encrypted.
 - **The lock is app-level.** It is not an OS-level encryption boundary and has not undergone an independent third-party security audit. Someone with full device access and developer tools may be able to bypass it.
 - **Local storage can be cleared.** Backups are the durable copy. Android auto-backup is intentionally disabled.

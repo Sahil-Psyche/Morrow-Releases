@@ -188,7 +188,7 @@ This release includes:
 
 ## Known limitations
 
-- **Android sideload only.** This is not a Play Store build, and there is no iOS build in this repository.
+- **Android sideload only.** This is not a Play Store build. There is no iOS build or hosted PWA download in this repository; the Android APK is the supported build here.
 - **Metadata is plaintext at rest.** See [What is not encrypted](#what-is-not-encrypted).
 - **The lock is app-level.** It is not a full-disk or OS-level encryption boundary, and it has not been independently audited.
 - **Local storage can be cleared.** Browser or OS storage eviction, resetting the app, or uninstalling can remove the vault. An exported backup is the durable copy; Android auto-backup is intentionally disabled.
