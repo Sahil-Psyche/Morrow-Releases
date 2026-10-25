@@ -1,0 +1,13 @@
+# Release binaries belong in GitHub Releases, not in the repository
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# Local environment and OS files
+.env
+.env.*
+.DS_Store
+Thumbs.db
